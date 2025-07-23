@@ -1,0 +1,47 @@
+CRISPR/Cas9 原理
+
+
+ChatGPT 說：
+CRISPR/Cas9（Clustered Regularly Interspaced Short Palindromic Repeats/CRISPR-associated protein 9）是一种基因编辑工具，能够在特定的DNA序列上进行精准的切割和修饰。其原理来源于细菌和古细菌的免疫系统，它们用CRISPR/Cas系统来抵御病毒的感染。
+
+CRISPR/Cas9 的基本原理
+CRISPR/Cas9 主要由两个核心部分组成：
+
+CRISPR（成簇的规律间隔短回文重复序列）：包含重复序列和间隔序列，间隔序列来源于病毒或外来DNA，类似于免疫记忆库。
+
+Cas9 蛋白：一种DNA内切酶，负责识别和切割目标DNA序列。
+
+基因编辑的关键步骤
+gRNA 识别靶标
+
+研究人员设计向导RNA（gRNA, guide RNA），其一部分序列（crRNA）能特异性结合目标DNA，而另一部分（tracrRNA）能帮助Cas9蛋白结合gRNA。
+
+Cas9 结合并切割DNA
+
+gRNA 指导 Cas9 在基因组中特定位点结合，只要目标DNA序列前有一个**PAM（Protospacer Adjacent Motif, 原间隔区邻近基序）**序列（通常是 "NGG"），Cas9 就能精确切割DNA，形成双链断裂（Double-Strand Break, DSB）。
+
+细胞修复DNA（关键基因编辑过程）
+
+非同源末端连接（NHEJ, Non-Homologous End Joining）：容易引入插入/缺失突变（Indels），可用于基因敲除（Knockout）。
+
+同源重组修复（HDR, Homology-Directed Repair）：如果提供修复模板，可实现基因修正、插入或替换，适用于精准基因编辑。
+
+应用
+基因功能研究：基因敲除（Knockout）用于研究基因功能。
+
+疾病治疗：用于修复遗传病变（如镰刀型贫血、杜氏肌营养不良）。
+
+农业改良：培育抗病、高产作物。
+
+生物技术：合成生物学、药物开发。
+
+总结
+CRISPR/Cas9 是一种强大且高效的基因编辑技术，它通过gRNA 引导 Cas9 精确切割目标DNA，然后利用细胞自身的修复机制进行基因编辑。这项技术的出现极大地推动了生物医学、农业和生物技术的发展。
+
+
+
+
+
+
+
+
