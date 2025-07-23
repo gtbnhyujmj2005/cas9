@@ -1,0 +1,67 @@
+簡介非同源末端連接（NHEJ） / 同源導向修復（HDR）
+
+
+ChatGPT 說：
+非同源末端連接（NHEJ）與同源導向修復（HDR）簡介
+當 DNA 雙股發生斷裂（double-strand breaks, DSBs）時，細胞會啟動修復機制以維持基因組的穩定性。主要的修復路徑有 非同源末端連接（NHEJ） 和 同源導向修復（HDR），這兩者在基因編輯（如 CRISPR/Cas9）中至關重要。
+
+1. 非同源末端連接（Non-Homologous End Joining, NHEJ）
+機制
+NHEJ 不依賴同源模板，直接將斷裂的 DNA 末端連接起來。
+
+由 Ku 蛋白（Ku70/Ku80）識別 DNA 斷裂點，招募 DNA-PKcs（DNA-dependent protein kinase catalytic subunit） 和 XRCC4–DNA ligase IV 進行修復。
+
+修復過程可能會導致 小範圍的插入（insertion）或刪除（deletion, indels），可能影響基因功能。
+
+特點
+✅ 快速：NHEJ 在細胞週期的 G1、S、G2 期皆可發生。
+✅ 不需要同源序列，因此適用於大多數 DNA 斷裂情況。
+❌ 低精確度：容易產生突變，可能導致基因失活（knockout）。
+
+應用
+CRISPR/Cas9 基因編輯時，NHEJ 常用於基因敲除（knockout），因為它會引入突變，破壞目標基因的功能。
+
+在免疫系統重組（如 T 細胞受體與 B 細胞抗體重排）中發揮重要作用。
+
+2. 同源導向修復（Homology-Directed Repair, HDR）
+機制
+HDR 需要同源 DNA 作為模板 來修復 DNA 斷裂。
+
+細胞利用姐妹染色體或外源 DNA 片段進行準確修復。
+
+主要涉及 Rad51、BRCA1、BRCA2 等蛋白，這些蛋白幫助 DNA 配對與重組。
+
+特點
+✅ 高精確度：不會產生額外突變，可精確修復 DNA。
+❌ 效率較低：HDR 主要發生在 S 期與 G2 期，當 DNA 複製後有可用的姐妹染色體模板時才會進行修復。
+❌ 需要額外提供模板 DNA，使應用較為受限。
+
+應用
+基因修復：在 CRISPR/Cas9 技術中，HDR 可用於基因敲入（knock-in），如修正致病突變或插入特定基因。
+
+疾病研究與治療：HDR 可用於修復如鐮刀型貧血、囊性纖維化等遺傳病突變。
+
+NHEJ vs. HDR 比較表
+特性	NHEJ	HDR
+是否需要同源模板	否	是
+修復精確度	低，可能導致突變	高，精確修復
+發生時間	G1、S、G2 期	S、G2 期
+效率	高	低
+應用	基因敲除（Knockout）	基因敲入（Knock-in）、基因修復
+
+結論
+NHEJ 適合基因敲除（knockout），因為它效率高，但會導致突變。
+
+HDR 適合基因敲入（knock-in） 或修復突變，但需要模板 DNA，效率較低。
+
+在 CRISPR/Cas9 基因編輯中，研究人員通常透過改進 HDR 效率（如使用 DNA 修復抑制劑）或工程化 Cas9 變體來提升修復精準度。
+
+這兩種修復機制在基因編輯與細胞生物學研究中至關重要，對精準醫療與遺傳疾病治療具有深遠影響。
+
+
+
+
+
+
+
+
